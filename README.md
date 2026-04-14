@@ -1,14 +1,9 @@
-# 🔐 Random Password Generator (Python)
-
+##  Random Password Generator (Python)
 A simple Python program to generate strong and secure random passwords using letters, numbers, and special characters.
 
----
-
-## 📌 Features
-
+## Features
 * Generate passwords of any desired length
 * Uses a mix of:
-
   * Uppercase letters (A–Z)
   * Lowercase letters (a–z)
   * Numbers (0–9)
@@ -16,23 +11,16 @@ A simple Python program to generate strong and secure random passwords using let
 * Simple and beginner-friendly code
 * Fast and efficient
 
----
-
-## 🛠️ Technologies Used
-
+## Technologies Used
 * Python 3
 * Built-in Libraries:
 
   * `random`
   * `string`
 
----
-
-## ⚙️ How It Works
-
+## How It Works
 1. The program asks the user to enter the desired password length.
 2. It combines:
-
    * Letters (uppercase + lowercase)
    * Digits
    * Special characters
@@ -40,33 +28,9 @@ A simple Python program to generate strong and secure random passwords using let
 4. These characters are joined together to form a secure password.
 5. The generated password is displayed on the screen.
 
----
-
-## ▶️ How to Run
-
-### Step 1: Clone the Repository
-
-```bash
-git clone https://github.com/ayush893singh/password-generator.git
+## Code
 ```
-
-### Step 2: Navigate to the Folder
-
-```bash
-cd password-generator
-```
-
-### Step 3: Run the Program
-
-```bash
-python password.py
-```
-
----
-
-## 💻 Code
-
-```python
+python
 import random
 import string
 
@@ -79,24 +43,12 @@ length = int(input("Enter password length: "))
 print("Generated Password:", generate_password(length))
 ```
 
----
-
-## 📊 Example Output
-
+## Output
 ```
-Enter password length: 10
-Generated Password: aB#9kL!2@x
+Enter password length: 6
+Generated Password: c!qjcK
 ```
 
----
-
-## 👨‍💻 Author
-
-**Ayush Singh**
-🔗 GitHub: https://github.com/ayush893singh
-
----
-
-## ⭐ Support
-
-If you like this project, give it a ⭐ on GitHub!
+## Author
+Ayush Singh
+GitHub: https://github.com/ayush893singh
