@@ -30,7 +30,6 @@ A simple Python program to generate strong and secure random passwords using let
 
 ## Code
 ```
-python
 import random
 import string
 
