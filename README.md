@@ -28,20 +28,6 @@ A simple Python program to generate strong and secure random passwords using let
 4. These characters are joined together to form a secure password.
 5. The generated password is displayed on the screen.
 
-## Code
-```
-import random
-import string
-
-def generate_password(length):
-    chars = string.ascii_letters + string.digits + string.punctuation
-    password = ''.join(random.choice(chars) for _ in range(length))
-    return password
-
-length = int(input("Enter password length: "))
-print("Generated Password:", generate_password(length))
-```
-
 ## Output
 ```
 Enter password length: 6
